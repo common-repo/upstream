@@ -9,7 +9,7 @@ A [common-repo](https://github.com/common-repo/common-repo) upstream template pr
 | `.pre-commit-config.yaml` | Trailing whitespace, end-of-file, YAML lint, merge conflict, large file checks |
 | `.github/workflows/ci.yaml` | Pre-commit checks and common-repo config validation |
 | `.github/workflows/commitlint.yml` | Conventional commit enforcement on PRs |
-| `.github/workflows/release.yaml` | Semantic release with GitHub App token auth |
+| `.github/workflows/release.yaml` | Semantic release with GitHub App token auth (supports manual trigger via `workflow_dispatch`) |
 | `.releaserc.yaml` | Semantic release configuration (conventionalcommits preset) |
 | `commitlint.config.js` | Commitlint conventional config |
 
