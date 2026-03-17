@@ -64,8 +64,12 @@ jobs:
             "@semantic-release/github" \
             "semantic-release-major-tag" \
             "conventional-changelog-conventionalcommits"
-          npx semantic-release > release.log 2>&1 || true
-          cat release.log
+          npx semantic-release 2>&1 | tee release.log
+          exit_code=${PIPESTATUS[0]}
+          if [ "$exit_code" -ne 0 ]; then
+            echo "::error::Semantic release failed with exit code $exit_code"
+            exit "$exit_code"
+          fi
           if grep -q "There are no relevant changes, so no new version is released." release.log; then
             echo "publish=false" >> "$GITHUB_OUTPUT"
           else
