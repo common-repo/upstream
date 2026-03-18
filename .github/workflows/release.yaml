@@ -55,8 +55,6 @@ jobs:
           npm install --no-save --no-package-lock \
             "@semantic-release/commit-analyzer" \
             "@semantic-release/release-notes-generator" \
-            "@semantic-release/changelog" \
-            "@semantic-release/git" \
             "@semantic-release/github" \
             "semantic-release-major-tag" \
             "conventional-changelog-conventionalcommits"

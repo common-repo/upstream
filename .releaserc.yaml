@@ -10,8 +10,6 @@ plugins:
     - preset: conventionalcommits
   - - "@semantic-release/release-notes-generator"
     - preset: conventionalcommits
-  - - "@semantic-release/changelog"
-  - - "@semantic-release/git"
   - - "@semantic-release/github"
     # Disable noisy issue/PR comments to avoid GH rate limits
     - failComment: false
