@@ -24,9 +24,9 @@ echo "==> Checking template vars match between config and workflow"
 # Extract template vars defined in .common-repo.yaml
 config_vars=$(grep -A 100 '^- template-vars:' .common-repo.yaml | tail -n +2 | grep '^\s\+\w' | awk -F: '{print $1}' | tr -d ' ')
 
-# Check each var has a ${VAR:-default} reference in the template source
+# Check each var has a __COMMON_REPO__VAR__ reference in the template source
 for var in $config_vars; do
-  if grep -q "\${${var}:-" src/.github/workflows/release.yaml; then
+  if grep -q "__COMMON_REPO__${var}__" src/.github/workflows/release.yaml; then
     pass "template var $var found in src release workflow"
   else
     fail "template var $var missing from src release workflow"
