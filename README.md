@@ -1,4 +1,4 @@
-# cr-upstream-repo
+# upstream
 
 A [common-repo](https://github.com/common-repo/common-repo) upstream template providing shared development tooling for upstream repository authors.
 
@@ -21,7 +21,7 @@ Add to your upstream repo's `.common-repo.yaml`:
 
 ```yaml
 - repo:
-    url: https://github.com/common-repo/cr-upstream-repo
+    url: https://github.com/common-repo/upstream
     ref: v1.0.0
 ```
 
@@ -31,7 +31,7 @@ The release workflow is templatized for GitHub App credentials. Override the def
 
 ```yaml
 - repo:
-    url: https://github.com/common-repo/cr-upstream-repo
+    url: https://github.com/common-repo/upstream
     ref: v1.0.0
 
 - template-vars:
