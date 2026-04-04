@@ -36,3 +36,12 @@ jobs:
 
       - name: Dry-run apply
         run: common-repo apply --dry-run
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v
+      - name: Run tests
+        run: |
+          [ ! -x "script/test" ] || script/test
