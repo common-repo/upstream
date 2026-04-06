@@ -1,13 +1,13 @@
 # Local consumption — apply our own source files to this repo
 - self:
-    - include: ["src/**"]
-    - template: ["src/.github/workflows/release.yaml"]
-    - template-vars:
-        GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
-        GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
-        GH_APP_OWNER: common-repo
-    - rename:
-        - "^src/(.*)$": "$1"
+  - include: ["src/**"]
+  - template: ["src/.github/workflows/release.yaml"]
+  - template-vars:
+      GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
+      GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
+      GH_APP_OWNER: common-repo
+  - rename:
+      - "^src/(.*)$": "$1"
 
 # Source API — what consumers inherit
 - include: ["src/**"]
