@@ -1,5 +1,8 @@
 # Local consumption — apply our own source files to this repo
 - self:
+  - repo:
+      url: https://github.com/common-repo/conventional-commits
+      ref: v1.0.3
   - include: ["src/**"]
   - template: ["src/.github/workflows/release.yaml"]
   - template-vars:
@@ -10,11 +13,14 @@
       - "^src/(.*)$": "$1"
 
 # Source API — what consumers inherit
+- repo:
+    url: https://github.com/common-repo/conventional-commits
+    ref: v1.0.3
 - include: ["src/**"]
 - template: ["src/.github/workflows/release.yaml"]
+- rename:
+    - "^src/(.*)$": "$1"
 - template-vars:
     GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
     GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
     GH_APP_OWNER: common-repo
-- rename:
-    - "^src/(.*)$": "$1"
