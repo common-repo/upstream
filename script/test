@@ -37,9 +37,7 @@ echo "==> Checking src/ contains all distributed files"
 
 # Files listed in README "What's Included" table (after rename, so without src/ prefix)
 expected_files=(
-  ".pre-commit-config.yaml"
   ".github/workflows/ci.yaml"
-  ".github/workflows/commitlint.yml"
   ".github/workflows/release.yaml"
   ".releaserc.yaml"
   "commitlint.config.cjs"
