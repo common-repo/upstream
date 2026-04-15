@@ -1,27 +1,31 @@
-# From common-repo/pre-commit
-minimum_prek_version: "0.3.8"
-
+minimum_prek_version: 0.3.8
 default_install_hook_types:
-  - pre-commit
-  - commit-msg
-
+- pre-commit
+- commit-msg
 repos:
-  - repo: builtin
-    hooks:
-      - id: trailing-whitespace
-      - id: check-added-large-files
-      - id: check-case-conflict
-      - id: end-of-file-fixer
-      - id: fix-byte-order-marker
-      - id: check-json
-      - id: check-json5
-      - id: check-toml
-      - id: check-yaml
-        args: [--allow-multiple-documents]
-      - id: check-merge-conflict
-      - id: check-added-large-files
-      - id: check-xml
-      - id: mixed-line-ending
-      - id: check-symlinks
-      - id: detect-private-key
-      - id: check-executables-have-shebangs
+- repo: builtin
+  hooks:
+  - id: trailing-whitespace
+  - id: check-added-large-files
+  - id: check-case-conflict
+  - id: end-of-file-fixer
+  - id: fix-byte-order-marker
+  - id: check-json
+  - id: check-json5
+  - id: check-toml
+  - id: check-yaml
+    args:
+    - --allow-multiple-documents
+  - id: check-merge-conflict
+  - id: check-added-large-files
+  - id: check-xml
+  - id: mixed-line-ending
+  - id: check-symlinks
+  - id: detect-private-key
+  - id: check-executables-have-shebangs
+- repo: https://github.com/compilerla/conventional-pre-commit
+  rev: v3.6.0
+  hooks:
+  - id: conventional-pre-commit
+    stages:
+    - commit-msg
