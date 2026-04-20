@@ -8,8 +8,8 @@
       auto-merge: .pre-commit-config.yaml
       array_mode: append_unique
   - repo:
-      url: https://github.com/common-repo/conventional-commits
-      ref: v1.2.0
+      url: https://github.com/common-repo/semantic-release
+      ref: v0.5.2
   - template-vars:
       GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
       GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
@@ -24,8 +24,8 @@
     auto-merge: .pre-commit-config.yaml
     array_mode: append_unique
 - repo:
-    url: https://github.com/common-repo/conventional-commits
-    ref: v1.2.0
+    url: https://github.com/common-repo/semantic-release
+    ref: v0.5.2
 - template-vars:
     GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
     GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
