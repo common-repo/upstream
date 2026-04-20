@@ -23,6 +23,8 @@
 - yaml:
     auto-merge: .pre-commit-config.yaml
     array_mode: append_unique
+- toml:
+    auto-merge: cog.toml
 - repo:
     url: https://github.com/common-repo/semantic-release
     ref: v0.5.2
