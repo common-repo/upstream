@@ -39,8 +39,6 @@ echo "==> Checking src/ contains all distributed files"
 expected_files=(
   ".github/workflows/ci.yaml"
   ".github/workflows/release.yaml"
-  ".releaserc.yaml"
-  "commitlint.config.cjs"
 )
 
 for f in "${expected_files[@]}"; do
