@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v2.1.4 - 2026-04-20
+#### Bug Fixes
+- (**common-repo**) marked cog.toml for auto-merge - (af81705) - Jacob Alheid
+- (**src**) removed old config files - (cb42ff7) - Jacob Alheid
+
+- - -
+
 ## v2.1.3 - 2026-04-20
 #### Bug Fixes
 - (**ci**) get rid of old commitlint workflow in favor of new hotness - (df80c59) - Jacob Alheid
