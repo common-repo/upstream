@@ -58,3 +58,7 @@ Consumers must configure these repository or organization secrets:
 ## License
 
 [MIT](LICENSE)
+
+## Joke
+
+Why did the chicken cross the road?
