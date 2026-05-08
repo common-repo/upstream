@@ -9,7 +9,7 @@
       array_mode: append_unique
   - repo:
       url: https://github.com/common-repo/semantic-release
-      ref: v0.5.2
+      ref: v0.6.2
   - template-vars:
       GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
       GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
@@ -27,7 +27,7 @@
     auto-merge: cog.toml
 - repo:
     url: https://github.com/common-repo/semantic-release
-    ref: v0.5.2
+    ref: v0.6.2
 - template-vars:
     GH_APP_ID_SECRET: COMMON_REPO_BOT_CLIENT_ID
     GH_APP_KEY_SECRET: COMMON_REPO_BOT_PRIVATE_KEY
