@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v2.2.0 - 2026-05-08
+#### Features
+- bad joke enabled. - (81c16e4) - jathanism
+#### Bug Fixes
+- update common-repo semantic-release version for self/downstream - (b7e977a) - jathanism
+- update semantic-release upstream version - (3864964) - jathanism
+
+- - -
+
 ## v2.1.4 - 2026-04-20
 #### Bug Fixes
 - (**common-repo**) marked cog.toml for auto-merge - (af81705) - Jacob Alheid
