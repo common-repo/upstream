@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v2.2.1 - 2026-05-14
+#### Bug Fixes
+- bump semantic-release to v0.6.4 and fix bump commit formatting - (bc3a127) - Jacob Alheid
+
+- - -
+
 ## v2.2.0 - 2026-05-08
 #### Features
 - bad joke enabled. - (81c16e4) - jathanism
