@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v2.2.2 - 2026-10-30
+#### Bug Fixes
+- (**ci**) run common-repo diff in the Validate job - (6fb2fb6) - jathanism
+#### Documentation
+- describe the cocogitto payload in What's Included - (09c5af1) - Jacob Alheid
+- add agent navigation index and Claude pointer - (19e8d2a) - Jacob Alheid
+#### Miscellaneous Chores
+- drop CLAUDE.md shim; AGENTS.md is read natively - (82ceda8) - Jacob Alheid
+
+- - -
+
 ## v2.2.1 - 2026-05-14
 #### Bug Fixes
 - bump semantic-release to v0.6.4 and fix bump commit formatting - (bc3a127) - Jacob Alheid
