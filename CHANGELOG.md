@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v2.3.0 - 2026-11-03
+#### Features
+- (**common-repo**) update semantic-release payload to v0.9.5 - (c522008) - jathanism
+
+- - -
+
 ## v2.2.4 - 2026-11-03
 #### Continuous Integration
 - (**release**) self-heal unsuperseded dangling release tags - (543ba74) - jathanism
