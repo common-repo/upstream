@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v2.4.2 - 2026-11-04
+#### Bug Fixes
+- (**common-repo**) update semantic-release payload to v0.12.2 - (f7d6c69) - Devin AI, *Devin AI*
+
+- - -
+
 ## v2.4.1 - 2026-11-04
 #### Bug Fixes
 - (**common-repo**) update semantic-release payload to v0.12.1 - (afcb15f) - Devin AI, *Devin AI*
