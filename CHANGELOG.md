@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## v2.4.0 - 2026-11-04
+#### Features
+- (**common-repo**) update semantic-release payload to v0.12.0 - (d0a5356) - Devin AI, *Devin AI*
+#### Bug Fixes
+- (**ci**) name the ci.yaml steps to match the semantic-release stub - (2bd53c5) - Devin AI, *Devin AI*
+
+- - -
+
 ## v2.3.0 - 2026-11-03
 #### Features
 - (**common-repo**) update semantic-release payload to v0.9.5 - (c522008) - jathanism
